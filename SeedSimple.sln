@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedSimple", "SeedSimple\SeedSimple.csproj", "{82E93AC9-0506-40DE-ACA6-18B9FFAB9A48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSecurity", "SimpleSecurity\SimpleSecurity.csproj", "{BB4DF35B-F6EB-4F53-A00D-9EAFF0165E3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSecurity.UnitTest", "SimpleSecurity.UnitTest\SimpleSecurity.UnitTest.csproj", "{6D114D32-5FED-4869-9C27-31CD502EED5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileExample", "MobileExample\MobileExample.csproj", "{109A00AE-B37D-444C-B4F6-C639A54F16DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSecurity.Filters", "SimpleSecurity.Filters\SimpleSecurity.Filters.csproj", "{5103928A-3828-42DA-8BE5-73BA042D2291}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs33
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SeedSimple\\SeedSimple.csproj
+		SccProjectName1 = SeedSimple
+		SccLocalPath1 = SeedSimple
+		SccProjectUniqueName2 = SimpleSecurity\\SimpleSecurity.csproj
+		SccProjectName2 = SimpleSecurity
+		SccLocalPath2 = SimpleSecurity
+		SccProjectUniqueName3 = SimpleSecurity.UnitTest\\SimpleSecurity.UnitTest.csproj
+		SccProjectName3 = SimpleSecurity.UnitTest
+		SccLocalPath3 = SimpleSecurity.UnitTest
+		SccProjectUniqueName4 = MobileExample\\MobileExample.csproj
+		SccProjectName4 = MobileExample
+		SccLocalPath4 = MobileExample
+		SccProjectUniqueName5 = SimpleSecurity.Filters\\SimpleSecurity.Filters.csproj
+		SccProjectName5 = SimpleSecurity.Filters
+		SccLocalPath5 = SimpleSecurity.Filters
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82E93AC9-0506-40DE-ACA6-18B9FFAB9A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E93AC9-0506-40DE-ACA6-18B9FFAB9A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E93AC9-0506-40DE-ACA6-18B9FFAB9A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E93AC9-0506-40DE-ACA6-18B9FFAB9A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4DF35B-F6EB-4F53-A00D-9EAFF0165E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4DF35B-F6EB-4F53-A00D-9EAFF0165E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4DF35B-F6EB-4F53-A00D-9EAFF0165E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4DF35B-F6EB-4F53-A00D-9EAFF0165E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D114D32-5FED-4869-9C27-31CD502EED5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D114D32-5FED-4869-9C27-31CD502EED5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D114D32-5FED-4869-9C27-31CD502EED5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D114D32-5FED-4869-9C27-31CD502EED5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109A00AE-B37D-444C-B4F6-C639A54F16DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109A00AE-B37D-444C-B4F6-C639A54F16DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109A00AE-B37D-444C-B4F6-C639A54F16DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109A00AE-B37D-444C-B4F6-C639A54F16DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5103928A-3828-42DA-8BE5-73BA042D2291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5103928A-3828-42DA-8BE5-73BA042D2291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5103928A-3828-42DA-8BE5-73BA042D2291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5103928A-3828-42DA-8BE5-73BA042D2291}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

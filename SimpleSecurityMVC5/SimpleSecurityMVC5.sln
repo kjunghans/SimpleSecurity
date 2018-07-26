@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSecurityMVC5", "SimpleSecurityMVC5\SimpleSecurityMVC5.csproj", "{0D093AD6-EDB5-40F8-8C50-47A1E4EA952E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSecurity", "..\SimpleSecurity\SimpleSecurity.csproj", "{BB4DF35B-F6EB-4F53-A00D-9EAFF0165E3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedSimpleUpgradeTo5", "SeedSimpleUpgradeTo5\SeedSimpleUpgradeTo5.csproj", "{82E93AC9-0506-40DE-ACA6-18B9FFAB9A48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSecurity.Filters.Mvc5", "..\SimpleSecurity.Filters.Mvc5\SimpleSecurity.Filters.Mvc5.csproj", "{5103928A-3828-42DA-8BE5-73BA042D2291}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs33
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SimpleSecurityMVC5\\SimpleSecurityMVC5.csproj
+		SccProjectName1 = SimpleSecurityMVC5
+		SccLocalPath1 = SimpleSecurityMVC5
+		SccProjectUniqueName2 = ..\\SimpleSecurity\\SimpleSecurity.csproj
+		SccProjectName2 = ../SimpleSecurity
+		SccLocalPath2 = ..\\SimpleSecurity
+		SccProjectUniqueName3 = SeedSimpleUpgradeTo5\\SeedSimpleUpgradeTo5.csproj
+		SccProjectName3 = SeedSimpleUpgradeTo5
+		SccLocalPath3 = SeedSimpleUpgradeTo5
+		SccProjectUniqueName4 = ..\\SimpleSecurity.Filters.Mvc5\\SimpleSecurity.Filters.Mvc5.csproj
+		SccProjectName4 = ../SimpleSecurity.Filters.Mvc5
+		SccLocalPath4 = ..\\SimpleSecurity.Filters.Mvc5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D093AD6-EDB5-40F8-8C50-47A1E4EA952E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D093AD6-EDB5-40F8-8C50-47A1E4EA952E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D093AD6-EDB5-40F8-8C50-47A1E4EA952E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D093AD6-EDB5-40F8-8C50-47A1E4EA952E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4DF35B-F6EB-4F53-A00D-9EAFF0165E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4DF35B-F6EB-4F53-A00D-9EAFF0165E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4DF35B-F6EB-4F53-A00D-9EAFF0165E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4DF35B-F6EB-4F53-A00D-9EAFF0165E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E93AC9-0506-40DE-ACA6-18B9FFAB9A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E93AC9-0506-40DE-ACA6-18B9FFAB9A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E93AC9-0506-40DE-ACA6-18B9FFAB9A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E93AC9-0506-40DE-ACA6-18B9FFAB9A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5103928A-3828-42DA-8BE5-73BA042D2291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5103928A-3828-42DA-8BE5-73BA042D2291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5103928A-3828-42DA-8BE5-73BA042D2291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5103928A-3828-42DA-8BE5-73BA042D2291}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

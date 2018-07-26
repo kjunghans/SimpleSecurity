@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetIdentityRefApp", "AspNetIdentityRefApp\AspNetIdentityRefApp.csproj", "{65BB41A2-AD07-4264-92B8-470852B6D4A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSecurity.AspNetIdentity", "SimpleSecurity.AspNetIdentity\SimpleSecurity.AspNetIdentity.csproj", "{249B8A42-7671-4A3A-A9F2-4D3CD270B649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSecurity.AspNetIdentity.RefApp", "SimpleSecurity.AspNetIdentity.RefApp\SimpleSecurity.AspNetIdentity.RefApp.csproj", "{180C68C2-22CC-4E23-939A-37EE6645F8D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSecurity.AspNetIdentity.Filters", "SimpleSecurity.AspNetIdentity.Filters\SimpleSecurity.AspNetIdentity.Filters.csproj", "{8F1CF667-B7E8-45B9-80B1-0B56144DA029}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs33
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AspNetIdentityRefApp\\AspNetIdentityRefApp.csproj
+		SccProjectName1 = AspNetIdentityRefApp
+		SccLocalPath1 = AspNetIdentityRefApp
+		SccProjectUniqueName2 = SimpleSecurity.AspNetIdentity\\SimpleSecurity.AspNetIdentity.csproj
+		SccProjectName2 = SimpleSecurity.AspNetIdentity
+		SccLocalPath2 = SimpleSecurity.AspNetIdentity
+		SccProjectUniqueName3 = SimpleSecurity.AspNetIdentity.RefApp\\SimpleSecurity.AspNetIdentity.RefApp.csproj
+		SccProjectName3 = SimpleSecurity.AspNetIdentity.RefApp
+		SccLocalPath3 = SimpleSecurity.AspNetIdentity.RefApp
+		SccProjectUniqueName4 = SimpleSecurity.AspNetIdentity.Filters\\SimpleSecurity.AspNetIdentity.Filters.csproj
+		SccProjectName4 = SimpleSecurity.AspNetIdentity.Filters
+		SccLocalPath4 = SimpleSecurity.AspNetIdentity.Filters
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65BB41A2-AD07-4264-92B8-470852B6D4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BB41A2-AD07-4264-92B8-470852B6D4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BB41A2-AD07-4264-92B8-470852B6D4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BB41A2-AD07-4264-92B8-470852B6D4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249B8A42-7671-4A3A-A9F2-4D3CD270B649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249B8A42-7671-4A3A-A9F2-4D3CD270B649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249B8A42-7671-4A3A-A9F2-4D3CD270B649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249B8A42-7671-4A3A-A9F2-4D3CD270B649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180C68C2-22CC-4E23-939A-37EE6645F8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180C68C2-22CC-4E23-939A-37EE6645F8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180C68C2-22CC-4E23-939A-37EE6645F8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180C68C2-22CC-4E23-939A-37EE6645F8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1CF667-B7E8-45B9-80B1-0B56144DA029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1CF667-B7E8-45B9-80B1-0B56144DA029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1CF667-B7E8-45B9-80B1-0B56144DA029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1CF667-B7E8-45B9-80B1-0B56144DA029}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

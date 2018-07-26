@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Test Basic Authentication";
+}
+
+<h2>Test Basic Authentication</h2>
+<p>
+    If you leave the username and password blank it will attempt to make the Web API request 
+    using cookies. If you enter the username and password it will use basic authentication.
+
+</p>
+User Name: <input type="text" id="username" /> <br />
+Password:  <input type="password" id="password" /> <br />
+<input type="button" id="test-button" value="Press this button to call Web API" /> <br />
+<label id="api-results"></label>
+
+@section scripts{
+
+    @Scripts.Render("~/Scripts/jquery.base64.js")
+
+<script id="scriptInit" type="text/javascript">
+    $(document).ready(function () {
+
+        $("#test-button").click(runTest);
+
+        function getAuthorizationHeader(username, password) {
+            var authType;
+
+            if (password == "") {
+                authType = "Cookie " + $.base64.encode(username);
+            }
+            else {
+                var up = $.base64.encode(username + ":" + password);
+                authType = "Basic " + up;
+            };
+            return authType;
+        };
+
+        function ajaxSuccessHandler(data) {
+            $("#api-results").text(data);
+        };
+
+        function ajaxErrHandler(jqXHR, textStatus, errorThrown) {
+            $("#api-results").text(errorThrown + " : " + textStatus);
+        }
+
+
+        function runTest() {
+
+            var username = $("#username").val();
+            var password = $("#password").val();
+            $("#api-results").text("");
+
+            $.ajax({
+                url: "api/TestBasic",
+                type: "GET",
+                beforeSend: function (xhr) {
+                    xhr.setRequestHeader("Authorization", getAuthorizationHeader(username, password));
+                },
+                success: ajaxSuccessHandler,
+                error: ajaxErrHandler
+            });
+        };
+
+    });
+</script>
+
+}

@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>SimpleSecurity Reference Application</h1>
+    <p class="lead">SimpleSecurity Reference Application demsontrates how to use SimpleSecurity in an MVC 5 applciation.
+    Underneath the hood we are using the new ASP.NET Identity.</p>
+    <p><a href="http://www.asp.net/identity" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            SimpleSecurity adds an abstraction layer to ASP.NET Identity to make it easier to use, decouple it from 
+            the MVC application, and sheild you from changes made in ASP.NET Identity.  ASP.NET Identity is still undergoing
+            changes and is not well documented.  The API is the same the version of SimpleSecurity that encapsulates the 
+            previous ASP.NET security libraries called SimpleMembership. If you are familiar with SimpleMembership and SimpleSecurity
+            then moving to ASP.NET Identity is a snap.
+        </p>
+        <p>
+            This application is seeded with two users and two roles on database creation.  The user names are "user"
+            and "admin", and both have a password of "password".  The admin user is assigned to the "admin" role and 
+            the user user is assigned to the "user" role.  Going to the Read Foo tab requires a user role and going to
+            the Write Foo tab requires an admin role.
+        </p>
+        <p><a class="btn btn-default" href="http://simplesecurity.codeplex.com/">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get The Source Code</h2>
+        <p>SimpleSecurity is open source and you can get the source code from CodePlex.  The source code for this
+        reference applciation shows how to use SimpleSecurity for email confirmation during registration, password reset,
+        adding basic authentication to Web API calls and more.
+        </p>
+        <p><a class="btn btn-default" href="http://simplesecurity.codeplex.com/SourceControl/latest">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Read About It</h2>
+        <p>You can read more about SimpleSecurity and its design on Kevin Junghans' Blog</p>
+        <p><a class="btn btn-default" href="http://kevin-junghans.blogspot.com/">Learn more &raquo;</a></p>
+    </div>
+</div>
